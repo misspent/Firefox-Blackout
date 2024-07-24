@@ -50,7 +50,7 @@ Links to custom filters from image above:
 [ClearURLs for uBo (unofficial)](https://github.com/DandelionSprout/adfilt/discussions/163)  
 [Fanboy's Annoyance List](https://easylist.to)  
 [HaGeZi's Personal DNS Blocklist](https://github.com/hagezi/dns-blocklists)  
-[1Hosts (Pro)](https://github.com/badmojr/1Hosts)  
+[1Hosts (Lite)](https://github.com/badmojr/1Hosts)  
 [uBlock-Origin-dev-filter – All Search Engines – Global](https://github.com/quenhus/uBlock-Origin-dev-filter)  
 [More custom filter lists, found this not long ago, so I thought I'd share.](https://github.com/Universalizer/Universal-FilterLists#privacy)
 
