@@ -39,7 +39,8 @@ Canvas Blocker: [1](https://discuss.privacyguides.net/t/canvasblocker-firefox-ex
   <summary align="center">🍻 uBlock Origin filters + Imports</summary>
   <br>
 
-All the Filter lists I have enabled in uBlock Origin: ![Enabled uBlock Origin Filters](https://github.com/misspent/Firefox-Blackout/assets/78914154/463bbd36-cf8d-45fa-a064-bc8a693b8148)
+All the Filter lists I have enabled in uBlock Origin: ![Enabled uBlock Origin Filters](https://github.com/user-attachments/assets/d77a2254-d01f-49ac-8ee7-9a918ed9278a)
+
 
 
 Links to custom filters from image above:  
