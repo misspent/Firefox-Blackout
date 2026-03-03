@@ -1,4 +1,174 @@
-# Work In Progress (atm?) | Not really for Public use
+# ⚠️ This is a Work-in-progress (WIP)
+
+
+
+## 📌 Important
+
+- Mainly for **English** language
+- I **VERY** rarely update my browser
+- Have not moved everything that could be tweaked to main two `.css` files yet
+- `Colours` are borderline set in stone; unless you're willing to tweak them to your liking, this is not perfect.
+- I do not use nor recommend [Firefox](<https://www.firefox.com/en-GB/?utm_campaign=SET_DEFAULT_BROWSER>) & [Firefox Developer Edition](<https://www.firefox.com/en-GB/channel/desktop/developer/>) with default configuration (BetterFox `user.js`) 
+
+
+
+## 📥 How to install
+
+
+**about:config**:  
+- Set `svg.context-properties.content.enabled` to `true`
+- Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`  
+**Ones I like (use at own "risk")**:  
+- `dom.serviceWorkers.enabled` - Disables Service Workers
+- `ui.key.menuAccessKeyFocuses` - **Doesn't** focus menu bar with ALT key
+- `xpinstall.signatures.required` - Install ANY extension without signature warning
+- `browser.sessionstore.restore_pinned_tabs_on_demand` - **Doesn't** load Pinned tabs on browser startup
+
+**about:profiles**:  
+- `Open Folder` of your Root Directory profile (hit the button)
+- Drop the `chrome` folder into it & `user.js` file if it exists here
+
+
+
+## 💫 Features (More to come?)
+
+- One-line support
+- Custom compact Window Buttons
+- Colour coded tabs with compact unloaded
+- *Hopefully* clean imports + code to know exactly what does what
+
+
+
+## 📄 Information
+
+### 🔨 Harden Firefox
+- ⭐ [Betterfox](<https://github.com/yokoffing/Betterfox>)
+- [arkenfox](<https://github.com/arkenfox/user.js>)
+
+### 🌐 Browsers
+- ⭐ [LibreWolf](<https://librewolf.net/>)
+- [Waterfox](<https://www.waterfox.com/>)
+
+### 📦 Import (Probability of changing)
+
+#### **Add `/` to start of `url` to cancel import**:  
+`userChrome.css`  
+```css
+@import url("URL Imports/Square Everything.css");
+@import url("URL Imports/Extension Panel dropdown.css");
+/* Tabs / Toolbar (top) */
+@import /url("URL Imports/One-Liner.css");
+@import url("URL Imports/Window Buttons.css");
+@import /url("URL Imports/Extreme Compact Tabs.css"); /* Set `ui.tooltip.delay_ms`: `0` | instant tooltip for my settings */
+@import url("URL Imports/Compact Discard + Colored coded tabs.css");
+```
+`userContent.css`  
+```css
+@import url("URL Imports/New-Tab.css");
+@import url("URL Imports/Setting & Addons.css");
+@import url("URL Imports/Square Everything.css");
+@import /url("URL Imports/Select, Input, Textare - Dark Cleaner.css");
+/* Extension Themes */
+@import url("Misspent Imports/Extension Themes/Feedbro.css");
+@import url("Misspent Imports/Extension Themes/Jshelter.css");
+@import url("Misspent Imports/Extension Themes/uBlock-Origin.css");
+@import url("Misspent Imports/Extension Themes/Auto-Tab-Discard.css");
+@import url("Misspent Imports/Extension Themes/Tab-Session-Manager.css");
+@import url("Misspent Imports/Extension Themes/Firefox Multi-Containers.css");
+```
+
+
+## 🧩 Extension & Scripts (use/like)
+**Extension**:  
+- 📌 [uBlock Origin](<https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/>)
+- ⭐ [Stylus](<https://addons.mozilla.org/en-GB/firefox/addon/styl-us/>)
+- ⭐ [Violentmonkey](<https://addons.mozilla.org/en-GB/firefox/addon/violentmonkey/>)
+- [JShelter](<https://addons.mozilla.org/en-GB/firefox/addon/javascript-restrictor/>)
+- [Gesturefy](<https://addons.mozilla.org/en-GB/firefox/addon/gesturefy/>)
+- [Vimium C](<https://addons.mozilla.org/en-GB/firefox/addon/vimium-c/>)
+- [BlockTube](<https://addons.mozilla.org/en-GB/firefox/addon/blocktube/>)
+- [UltimaDark](<https://addons.mozilla.org/en-GB/firefox/addon/ultimadark/>)
+- [Chameleon](<https://addons.mozilla.org/en-GB/firefox/addon/chameleon-ext/>)
+- [Proton Pass](<https://addons.mozilla.org/en-GB/firefox/addon/proton-pass/>)
+- [CanvasBlocker](<https://addons.mozilla.org/en-GB/firefox/addon/canvasblocker/>)  
+- [Auto Highlight](<https://addons.mozilla.org/en-GB/firefox/addon/auto_highlight/>)
+- [FMHY SafeGuard](<https://addons.mozilla.org/en-GB/firefox/addon/fmhy-safeguard/>)
+- [Augmented Steam](<https://addons.mozilla.org/en-GB/firefox/addon/augmented-steam/>)
+- [Tab Session Manager](<https://addons.mozilla.org/en-GB/firefox/addon/tab-session-manager/>)
+- [Better Volume Booster](<https://addons.mozilla.org/en-GB/firefox/addon/better-volume-booster/>)
+- [Firefox Multi-Account Containers](<https://addons.mozilla.org/en-GB/firefox/addon/multi-account-containers/>)
+- [uBlacklist](<https://addons.mozilla.org/en-GB/firefox/addon/ublacklist/>)
+- - [Awesome uBlacklist](<https://github.com/rjaus/awesome-ublacklist>)
+- [Skip Redirect](<https://addons.mozilla.org/en-GB/firefox/addon/skip-redirect/>)
+- - [Skip Redirect Lists](<https://gist.github.com/wesinator/a1d7aeed25a17d01ccec91e1188de6fd>)
+
+**Script (ViolentMonkey)**:
+- [Pagetual](<https://greasyfork.org/en/scripts/438684-pagetual>)
+- [AdsBypasser](<https://adsbypasser.github.io/>)
+- [AdGuardExtra](<https://github.com/AdguardTeam/AdGuardExtra>)
+- [SearchJumper](<https://greasyfork.org/en/scripts/445274-searchjumper>)
+- [Linkify Plus Plus](<https://greasyfork.org/en/scripts/4255-linkify-plus-plus>)
+- [IMDb Scout Mod](<https://greasyfork.org/en/scripts/407284-imdb-scout-mod>)
+- [Simple Sponsor Skipper](<https://greasyfork.org/en/scripts/453320-simple-sponsor-skipper>)
+- [YouTube JS Engine Tamer](<https://greasyfork.org/en/scripts/473972-youtube-js-engine-tamer/post-install>)
+- [Double-click Image Downloader](<https://greasyfork.org/en/scripts/469594-double-click-image-downloader>)
+- **GitHub**:  [📖 Awesome Userscripts](<https://github.com/awesome-scripts/awesome-userscripts>)
+
+
+
+## 📸 Previews (High probability of changing)
+
+
+### Window Buttons
+
+![Hidden unless hovered](<Images\Window Buttons.gif>)
+- Buttons will be hidden unless hovering over top-right corner
+
+### Compact Discard + Colored coded tabs
+
+![Lovely Tabs](<Images\Compact & Discard + Colored Tabs.png>)
+
+### Extreme compact
+
+![Extreme compact](<Images\Extreme Compact.gif>)
+- Everything but selected is collapsed unless hovered (Width of hovered tab is smaller too) | Has a v2 in the `Extreme Compact Tabs.css` but you'll need to tweak about:config for instant tooltips
+
+### One-Liner
+
+![One-Liner - Without bookmarks](Images\One-Liner.png)
+
+
+
+
+
+
+
+### Setting & Addons
+
+**Settings**:
+
+![Settings About Page](<Images\Settings Page.png>)
+
+**Addons**:
+
+![Addons About Page](<Images\Addons Page.png>)
+
+
+
+### New-Tab Page
+
+![New-Tab page (shrunk)](<Images\New-Tab page (shrunk).jpg>)
+- You can add your own wallpaper and alter the one in the `New Tab.css`; the variable will probably be transferred to one of the `user` files. Additionally, I know that they now support this natively.
+
+
+
+---
+
+
+
+<details>
+  <summary align="center">📱 Old - Maybe read?</summary>
+  <br>
 
 ## ⚙️ Installation
 
@@ -127,3 +297,8 @@ user.js overides: [Common Overides](https://github.com/yokoffing/Betterfox/wiki/
 ### 🚦 Support
 
 **Check Version of browser you're using**: Search: `about:support`  
+
+
+
+
+</details>
