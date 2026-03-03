@@ -121,43 +121,35 @@
 
 ### Window Buttons
 
-![Hidden unless hovered](<Images\Window Buttons.gif>)
+![Hidden unless hovered](https://github.com/misspent/Firefox-Blackout/blob/main/Images/Window%20Buttons.gif)
 - Buttons will be hidden unless hovering over top-right corner
 
 ### Compact Discard + Colored coded tabs
 
-![Lovely Tabs](<Images\Compact & Discard + Colored Tabs.png>)
+![Lovely Tabs](https://github.com/misspent/Firefox-Blackout/blob/main/Images/Compact%20%26%20Discard%20%2B%20Colored%20Tabs.png)
 
 ### Extreme compact
 
-![Extreme compact](<Images\Extreme Compact.gif>)
+![Extreme compact](https://github.com/misspent/Firefox-Blackout/blob/main/Images/Extreme%20Compact.gif)
 - Everything but selected is collapsed unless hovered (Width of hovered tab is smaller too) | Has a v2 in the `Extreme Compact Tabs.css` but you'll need to tweak about:config for instant tooltips
 
 ### One-Liner
 
-![One-Liner - Without bookmarks](Images\One-Liner.png)
-
-
-
-
-
-
+![One-Liner - Without bookmarks](https://github.com/misspent/Firefox-Blackout/blob/main/Images/One-Liner.png)
 
 ### Setting & Addons
 
 **Settings**:
 
-![Settings About Page](<Images\Settings Page.png>)
+![Settings About Page](https://github.com/misspent/Firefox-Blackout/blob/main/Images/Settings%20Page.png)
 
 **Addons**:
 
-![Addons About Page](<Images\Addons Page.png>)
-
-
+![Addons About Page](https://github.com/misspent/Firefox-Blackout/blob/main/Images/Addons%20Page.png)
 
 ### New-Tab Page
 
-![New-Tab page (shrunk)](<Images\New-Tab page (shrunk).jpg>)
+![New-Tab page (shrunk)](https://github.com/misspent/Firefox-Blackout/blob/main/Images/New-Tab%20page%20(shrunk).jpg)
 - You can add your own wallpaper and alter the one in the `New Tab.css`; the variable will probably be transferred to one of the `user` files. Additionally, I know that they now support this natively.
 
 
