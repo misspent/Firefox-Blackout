@@ -1,0 +1,23 @@
+name: Help Wanted
+description: 
+title: "🚨: "
+assignees: misspent
+labels: [help wanted]
+body:
+  - type: checkboxes
+    id: check
+    attributes:
+      label: "🔍 Did you check former documentations?"
+      description: "Please make sure this hasn't been requested before. I will close this issue if it's a duplicate."
+      options:
+      - label: "I have checked and can't find anything to do with it"
+        required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "❓ What do you need help with?"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots"
+      description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient and helpful if you do)."
