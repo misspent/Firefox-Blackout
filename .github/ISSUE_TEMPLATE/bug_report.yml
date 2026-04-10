@@ -29,7 +29,7 @@ body:
       options:
         - userChrome
         - userContent
-        - @url import
+        - URL import
   - type: textarea
     id: bug-description
     attributes:
