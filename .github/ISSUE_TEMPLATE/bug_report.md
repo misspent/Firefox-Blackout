@@ -1,6 +1,6 @@
 name: Bug Report
 description: Create a bug report.
-title: "[Bug]: "
+title: "🐞: "
 assignees: misspent
 labels: ["bug"]
 body:
@@ -23,4 +23,4 @@ body:
     id: screenshots
     attributes:
       label: "📸 Screenshots"
-      description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient & helpful if you do)."
+      description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient and helpful if you do)."
