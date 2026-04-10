@@ -1,5 +1,5 @@
 name: Help Wanted
-description: 
+description: Having trouble with something
 title: "🚨: "
 assignees: misspent
 labels: [help wanted]
@@ -7,16 +7,26 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: "🔍 Did you check former documentations?"
+      label: "🔍 Did you check former issues?"
       description: "Please make sure this hasn't been requested before. I will close this issue if it's a duplicate."
       options:
       - label: "I have checked and can't find anything to do with it"
         required: true
   - type: textarea
+    id: browser
+    attributes:
+      label: "🌐 Browser & OS (specifics)"
+      value: |
+        Browser: 
+        Browser version: 
+        Operating System: 
+    validations:
+      required: true
+  - type: textarea
     id: question
     attributes:
       label: "❓ What do you need help with?"
-      description: "I need specifics! URL, websites, panel, context menu, file location, etc"
+      description: "URL, websites, panel, context menu, file location, etc"
   - type: textarea
     id: screenshots
     attributes:
