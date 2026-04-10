@@ -13,15 +13,10 @@ body:
       - label: "I have checked and can't find anything to do with it"
         required: true
   - type: textarea
-    id: plugin-feature
+    id: question
     attributes:
       label: "❓ Feature I'd like added"
       description: "Make sure you're direct with what you want with as much information as possible."
-      value: |
-        Name of theme it's for: 
-        The extension/script's name: 
-        Link to the extension/script: 
-      render: bash
   - type: textarea
     id: screenshots
     attributes:
