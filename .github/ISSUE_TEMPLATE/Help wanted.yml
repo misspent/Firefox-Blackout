@@ -16,6 +16,7 @@ body:
     id: question
     attributes:
       label: "❓ What do you need help with?"
+      description: "I need specifics! URL, websites, panel, context menu, file location, etc"
   - type: textarea
     id: screenshots
     attributes:
