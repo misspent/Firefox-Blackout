@@ -1,0 +1,29 @@
+ymlname: Feature Request
+description: Brain power over 3000.
+title: "💡: "
+assignees: misspent
+labels: [enhancement]
+body:
+  - type: checkboxes
+    id: check
+    attributes:
+      label: "🔍 Did you check former suggestions?"
+      description: "Please make sure this hasn't been requested before. I will close this issue if it's a duplicate."
+      options:
+      - label: "I have checked and can't find anything to do with it"
+        required: true
+  - type: textarea
+    id: plugin-feature
+    attributes:
+      label: "❓ Feature I'd like added"
+      description: "Make sure you're direct with what you want with as much information as possible."
+      value: |
+        Name of theme it's for: 
+        The extension/script's name: 
+        Link to the extension/script: 
+      render: bash
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots"
+      description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient and helpful if you do)."
