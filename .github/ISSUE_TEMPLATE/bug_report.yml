@@ -13,10 +13,28 @@ body:
       - label: "I have checked other issues"
         required: true
   - type: textarea
+    id: browser
+    attributes:
+      label: "🌐 Browser & OS (specifics)"
+      value: |
+        Browser: 
+        Browser version: 
+        Operating System: 
+    validations:
+      required: true
+  - type: dropdown
+    id: file-name
+    attributes:
+      label: 📂 What file/import?
+      options:
+        - userChrome
+        - userContent
+        - @url import
+  - type: textarea
     id: bug-description
     attributes:
       label: "📝 Describe the bug in detail"
-      description: "Please describe the bug and make sure it's clear and concise."
+      description: "Please describe the bug. Make sure it's clear and concise."
     validations:
       required: true
   - type: textarea
